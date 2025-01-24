@@ -15,7 +15,7 @@ function App() {
           <a className="social-link" href="https://t.me/PinterestCoinSol">
             <img className="social-img" src="/images/icons/tg.png" />
           </a>
-          <a className="social-link" href="https://dexscreener.com/solana/cyYjYF4zE8qzdZujX7qYnhVDjEydVVh4MA51wJ8rest">
+          <a className="social-link" href="https://dexscreener.com/solana/pinchange">
             <img className="social-img" src="/images/icons/dex_screener.jpg" />
           </a>
           <a className="social-link" href="https://www.dextools.io/app/en/solana/pair-explorer/GThKZDWkAhKpjRQxyWMYY7yxLA5pzn5ueHkqa6zVMv41?t=1737651234861">
@@ -32,10 +32,10 @@ function App() {
         <h1 className='title'>Pinterest</h1>
 
         <p className='contract'>
-          CA:&nbsp;cyYjYF4zE8qzdZujX7qYnhVDjEydVVh4MA51wJ8rest
+          CA:&nbsp;pinchange
         </p>
 
-        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=cyYjYF4zE8qzdZujX7qYnhVDjEydVVh4MA51wJ8rest" target='_blank' className='buy-link'>
+        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=pinchange" target='_blank' className='buy-link'>
           BUY
         </a>
       </section>
