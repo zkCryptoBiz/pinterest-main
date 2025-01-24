@@ -1,0 +1,244 @@
+.wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+@keyframes scrollBackground {
+  0% {
+    background-position: center top;
+  }
+
+  100% {
+    background-position: center bottom;
+  }
+}
+
+.content {
+  padding-block: 36px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  width: calc(100vw - 22px);
+  height: 100vh;
+  /* Full viewport height */
+  background-image: url('/images/pinterest_long.webp');
+  background-size: cover;
+  /* Keep the original proportions */
+  background-repeat: no-repeat;
+  /* background-position: center top; */
+  background-position: top right;
+  /* Start at the top of the image */
+  animation: scrollBackground 120s linear infinite;
+  /* Adjust duration as needed */
+  overflow: hidden;
+
+  margin-inline: 12px;
+
+  @media (max-width: 1023.98px) {
+    width: 100vw;
+    background-image: url('/images/pinterest_long_tablet.webp');
+  }
+
+  @media (max-width: 609.98px) {
+    width: 100vw;
+    background-image: url('/images/pinterest_long_mobile.webp');
+
+    gap: 12px;
+  }
+}
+
+.title {
+  font-size: 6em;
+  color: white;
+
+  background-color: #cc0f35;
+
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-inline: 60px;
+  border-radius: 1em;
+  line-height: 1;
+
+  transform: scaleX(1.1);
+
+  @media (max-width: 609.98px) {
+    font-size: 4em;
+
+    padding-inline: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+}
+
+
+
+.socials-container {
+  display: flex;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 24px;
+
+  @media (max-width: 997.98px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.social-link {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 300ms ease-out;
+
+  padding: 13px;
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+}
+
+.social-img {
+  width: 22px;
+  height: 22px;
+}
+
+.toolbar {
+  border-right: 1px solid var(--color-gray-roboflow-200);
+  height: 100vh;
+  width: 72px;
+  z-index: 672;
+
+  background-color: #fff;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding-block: 16px;
+
+  @media (max-width: 997.98px) {
+    top: auto;
+    bottom: 0;
+
+    height: 72px;
+    width: 100vw;
+    padding-block: unset;
+
+    padding-top: 12px;
+  }
+}
+
+.contract {
+  font-size: 1.5em;
+  color: white;
+
+  background-color: rgba(0, 0, 0, 1);
+
+  word-wrap: break-word;
+  /* Deprecated but widely supported */
+  overflow-wrap: break-word;
+  /* Modern equivalent */
+  word-break: break-word;
+  /* Optional, for better compatibility */
+
+  max-width: 60%;
+  display: inline-block;
+
+  text-align: center;
+
+  border-radius: 2em;
+
+  padding: 10px 30px;
+  margin-inline: 24px;
+
+  @media (max-width: 609.98px) {
+    max-width: unset;
+
+    font-size: 16px;
+    padding-inline: 20px;
+  }
+}
+
+.buy-link {
+  color: unset;
+  text-decoration: none;
+
+  color: #fff;
+
+  font-size: 3em;
+  color: white;
+
+  background-color: #cc0f35;
+
+  border-radius: 1em;
+  line-height: 1;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-inline: 35px;
+
+  font-weight: 600;
+
+  transition: all 300ms ease-out;
+
+  @media (max-width: 609.98px) {
+    font-size: 2em;
+    padding-inline: 30px;
+  }
+}
+
+.buy-link:hover {
+  background-color: #a80f2e;
+}
+
+@keyframes spinnerPulsation {
+  0% {
+    transform: scale(0);
+  }
+
+  75% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.spinner {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 4em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+.spinner-img {
+  width: 80px;
+  height: auto;
+
+  animation: spinnerPulsation 1.5s linear infinite;
+}
