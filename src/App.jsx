@@ -18,7 +18,7 @@ function App() {
           <a className="social-link" href="https://dexscreener.com/solana/pinchange">
             <img className="social-img" src="/images/icons/dex_screener.jpg" />
           </a>
-          <a className="social-link" href="https://www.dextools.io/app/en/solana/pair-explorer/GThKZDWkAhKpjRQxyWMYY7yxLA5pzn5ueHkqa6zVMv41?t=1737651234861">
+          <a className="social-link" href="https://www.dextools.io/app/en/solana/pair-explorer/pinchange">
             <img className="social-img" src="/images/icons/dextools.jpg" />
           </a>
         </div>
@@ -35,7 +35,7 @@ function App() {
           CA:&nbsp;pinchange
         </p>
 
-        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=pinchange" target='_blank' className='buy-link'>
+        <a href="https://pump.fun/coin/pinchange" target='_blank' className='buy-link'>
           BUY
         </a>
       </section>
