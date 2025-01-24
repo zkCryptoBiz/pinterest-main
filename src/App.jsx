@@ -15,11 +15,8 @@ function App() {
           <a className="social-link" href="https://t.me/PinterestCoinSol">
             <img className="social-img" src="/images/icons/tg.png" />
           </a>
-          <a className="social-link" href="https://dexscreener.com/solana/pinchange">
-            <img className="social-img" src="/images/icons/dex_screener.jpg" />
-          </a>
-          <a className="social-link" href="https://www.dextools.io/app/en/solana/pair-explorer/pinchange">
-            <img className="social-img" src="/images/icons/dextools.jpg" />
+          <a className="social-link" href="https://jup.ag/swap/pinchange">
+            <img className="social-img" src="/images/icons/jupiterswapbw.jpg" />
           </a>
         </div>
       </aside>
