@@ -15,10 +15,10 @@ function App() {
           <a className="social-link" href="https://t.me/PumpPinterest">
             <img className="social-img" src="/images/icons/tg.png" />
           </a>
-          <a className="social-link" href="https://jup.ag/swap/repreprep">
+          <a className="social-link" href="https://jup.ag/swap/4d6LiSfEjE7LxfR6Wmxx5FG4YfpyPx19ZDcnAvuQpump">
             <img className="social-img" src="/images/icons/jupiterswapbw.jpg" />
           </a>
-          <a className="social-link" href="https://pump.fun/coin/repreprep">
+          <a className="social-link" href="https://pump.fun/coin/4d6LiSfEjE7LxfR6Wmxx5FG4YfpyPx19ZDcnAvuQpump">
             <img className="social-img" src="/images/icons/pumpfunbw1.jpg" />
           </a>
         </div>
@@ -32,10 +32,10 @@ function App() {
         <h1 className='title'>Pinterest</h1>
 
         <p className='contract'>
-          CA:&nbsp;repreprep
+          CA:&nbsp;4d6LiSfEjE7LxfR6Wmxx5FG4YfpyPx19ZDcnAvuQpump
         </p>
 
-        <a href="https://pump.fun/coin/repreprep" target='_blank' className='buy-link'>
+        <a href="https://pump.fun/coin/4d6LiSfEjE7LxfR6Wmxx5FG4YfpyPx19ZDcnAvuQpump" target='_blank' className='buy-link'>
           BUY
         </a>
       </section>
